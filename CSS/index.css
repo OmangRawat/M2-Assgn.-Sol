@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h1 {
+    font-size: 175%;
+    text-align: center;
+    padding: 10px;
+    color: darkblue;
+    font-style: italic;
+}
+.container {
+    position: relative;
+}
+.heading {
+    border: 1px solid black;
+    /*background-color: blueviolet;*/
+    min-height: 25px;
+    width: 40%;
+    color: white;
+    text-align: center;
+    float: right;
+    margin: 0px;
+    font-size: 125%;
+}
+.box1 {
+    background-color: rgb(206, 31, 206);
+}
+.box2 {
+    background-color: darkviolet;
+}
+.box3 {
+    background-color: darkslateblue;
+}
+}
+.row {
+    width: 100%;
+}
+.fp {
+    background-color: cornflowerblue;
+    min-height: 290px;
+    border: 2px solid black;
+    margin: 15px;
+}
+/**********************************Small Devices***************************/
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        /*background-color: cornflowerblue;
+        height: 170px;
+        border: 2px solid black;*/
+        min-width: 100%;
+        margin-bottom: 5px;
+    }
+    .sp1 {
+        margin: 10px;
+    }
+    .sp2 {
+        margin: 10px;
+        margin-right: 20px;
+    }
+}
+/*******************************Medium Devices****************************/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+        /*background-color: cornflowerblue;
+        height: 150px;
+        border: 2px solid black;*/
+    }   
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .mp1 {
+        margin: 10px;
+    }
+    .mp2 {
+        margin: 10px;
+        margin-right: 0px;
+    }
+}
+/**********************Large Devices**************************/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        /*
+        background-color: cornflowerblue;
+        height: 150px;
+        border: 2px solid black;
+        */
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .lp1 {
+        margin: 10px;
+    }
+    .lp2 {
+        margin: 10px;
+        margin-right: 20px;
+    }
+    .lm {
+        margin-left: -10px;
+    }
+}
+.footer {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+}
